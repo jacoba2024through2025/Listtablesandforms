@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Registration</title>
+  </head>
+
+  <body>
+    <table>
+      <form>
+        <tr>
+          <th colspan="2"><h2>Registration Form</h2></th>
+        </tr>
+        <tr>
+          <td class="padd1">Enter Name</td>
+          <td class="padding1"><input type="text" /></td>
+        </tr>
+        <tr>
+          <td class="padd2">Enter Password</td>
+          <td class="padding2"><input type="password" /></td>
+        </tr>
+        <tr>
+          <td class="padd3">Enter Address</td>
+          <td class="padding3"><textarea></textarea></td>
+        </tr>
+        <tr>
+          <td class="padd4">Select Game</td>
+          <td class="padding4">
+            
+            <input type="checkbox" name="game" />Hockey
+            <br />
+            <input type="checkbox" name="game" />Football
+            <br />
+            <input type="checkbox" name="game" />Badminton
+            <br />
+            <input type="checkbox" name="game" />Cricket
+            <br />
+            <input type="checkbox" name="game" />volleyball
+            <br />
+          </td>
+        </tr>
+        <tr>
+          <td class="padd5">Gender</td>
+          <td class="padding5">
+            <input type="radio" name="Gender" id="male" />
+            <label for="male">Male</label>
+            <input type="radio" name="Gender" id="female" />
+            <label for="female">Female</label>
+          </td>
+        </tr>
+        <tr>
+          <td class="increase padd6">Select ur age</td>
+          <td class="padding6"><input type="number" min="0" max="90" placeholder="Select" /></td>
+        </tr>
+        <tr>
+          <td class="padd7">Select Photo</td>
+          <td class="padding7"><input type="file" accept="image/*" /></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="buttonscell">
+            <button class="buttons">Click Me</button
+            ><input type="reset" class="buttons" /><input
+              type="submit"
+              class="buttons"
+            />
+          </td>
+        </tr>
+      </form>
+    </table>
+  </body>
+</html>
